@@ -77,7 +77,7 @@ class Saved extends Component {
                     <div className={classes.details}>
 
                       <CardContent className={classes.content}>
-                        <Typography variant='title'>{book.title}</Typography>
+                        <Typography variant='h6'>{book.title}</Typography>
                         <Typography variant='subtitle1' >By {book.authors.join(", ")}</Typography>
                         <Typography variant='body1'>{book.description}</Typography>
                         <CardActions className={classes.actions}>
